@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&family=Roboto&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+body{
+    padding: 0px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+#search{
+    display: flex;
+    
+}
+#gift{
+    width: 100%;
+    height: 40px;
+    background-color:#F26A2F;
+    margin: 0%;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+#gift_text{
+    padding:10px;
+    text-decoration: none;
+}
+#gift_text:hover{
+    text-decoration: underline;
+}
+#gift img{
+    height: 15px;
+    filter: invert(1);
+    margin-right: 10px;
+    position: relative;
+    top: 3.5px;
+}
+#menu{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    font-weight: 900;
+    position: fixed;
+}
+#menu img{
+    height: 20px;
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 30px;
+    position: fixed;
+
+}
+.menutext{
+    /* padding: 5px; */
+    margin-left: 22px;
+    margin-top: 25px;
+    position: fixed;
+
+}
+#logo img{
+    height: 88px;
+    margin-left: 120px;
+}
+#logo{
+    margin-top: 0px;
+    margin-left: -12px;
+    /* border: 2px solid black; */
+}
+#searchbox{
+    background-color: rgb(235, 235, 235);
+    height: 50px;
+    /* border: 2px solid black; */
+    width: 870px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+#searchbox:hover{
+    background-color: rgb(216, 216, 216);
+}
+#searchbox #searchimg{
+    height: 15px;
+    position: relative;
+    top: 12px;
+    left: 20px;
+}
+.searchtext{
+    position: relative;
+    left: 50px;
+    bottom: 8px;
+    color: rgba(0,0,0,0.6);
+    font-size: larger;
+}
+#searchbox #camera{
+    height: 20px;
+    position: relative;
+    left: 810px;
+    top: 15px;
+}
+#login{
+    /* border: 2px solid black; */
+    width: 185px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 65px;
+    margin-top: 28px;
+}
+#login img{
+    height: 17px;
+    position: relative;
+    top: 5px;
+    left: 9px;
+}
+#logintext{
+    position: relative;
+    bottom: 17px;
+    left: 35px;
+    width: fit-content;
+    padding: 2px;
+    color: rgba(0,0,0,1);
+    font-weight: 900;
+}
+#login:hover{
+    background-color: rgb(218, 217, 217);
+}
+#heart img{
+    height: 17px;
+    margin-left: 6.5px;
+    margin-top: 5px;
+    
+}
+#heart{
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 30px;
+    margin-top: 29px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+#heart:hover{
+    background-color: rgb(206, 206, 206);
+}
+#cart img{
+    height: 27px;
+    margin-left: 2px;
+}
+#cart{
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 30px;
+    margin-top: 29px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#cart:hover{
+    background-color: rgb(206, 206, 206);
+}
+#belowsearch{
+    display: flex;
+
+    margin-left: 110px;
+}
+
+#products,#rooms, #new, #business, #offers{
+    font-size: 15px;
+    font-weight: 900;
+    margin: 20px;
+}
+#products:hover,#rooms:hover,#new:hover,#business:hover,#offers:hover{
+    text-decoration: underline;
+}
+#postal img{
+    height: 25px;
+    margin-left: -50px;
+}
+#postal{
+    /* border: 2px solid black; */
+    margin-left: 500px;
+}
+#postaltext{
+    position: relative;
+    bottom: 30px;
+    left: 37px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-left:-50px;
+}
+#store img{
+    height: 23px;
+}
+#store{
+    margin-left: 70px;
+}
+#storetext{
+    position: relative;
+    bottom: 27px;
+    left: 30px;
+    font-size: 15px;
+    margin-right: 50px;
+    font-weight: 900;
+}
+#navunder{
+    margin-left: 120px;
+    margin-right: 100px;
+    border-color: rgba(146, 146, 146, 0.1);
+}
+.family a{
+    text-decoration: none;
+    color: rgb(0,124,193);
+    font-weight: 700;
+}
+#greet{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.hej{
+    font-size: 35px;
+    font-weight: 900;
+}
+.underhej{
+    margin-top: 20px;
+    color: rgba(0,0,0,0.8);
+}
+.family{
+    margin-top: 17px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+}
+#fbody{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-left: 120px;
+    justify-content: space-between;
+}
+#largeimg img{
+    width: 660px;
+}
+#cushionimg img{
+    width: 320px;
+}
+#chairimg img{
+    height: 435px;
+}
+#candles img{
+    height: 435px;
+    width: 320px;
+}
+#secrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#thdrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#woman img{
+    width: 327px;
+    height: 320px;
+}
+#last{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    /* border: 0.5px; */
+    border-color: rgba(0,0,0,0.2);
+    margin-right: 50px;
+    margin-left: 120px;
+}
+
+/* footer */
+.arrow{
+    position: relative;
+    top: 25px;
+    right: 40px;
+}
+.ikea-footer{
+    background-color:#F5F5F5;
+    padding:5% 5% 1% 7%;
+}
+.footer-contents{
+    display:flex ;
+    justify-content: space-between;
+}
+.icons-country{
+    margin-top: 3%;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px ;
+    padding-bottom: 2%;
+    border-bottom: 0.5px solid black;
+}
+.copyrights{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+button.join-button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius:20px ;
+    font-weight: 700;
+}
+button.change-button{
+    width: 150px;
+    height: 40px;
+    color: black;
+    border-radius:20px ;
+    font-weight: 700;
+}
+button.join-button:hover{
+    opacity: 0.8;
+}
+p{
+    line-height: 30px;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+.sak:hover{
+    text-decoration: none;
+}
+
+
+
+
+
